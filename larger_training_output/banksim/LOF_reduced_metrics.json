@@ -1,0 +1,42 @@
+{
+  "dataset": "BankSim",
+  "model": "LOF",
+  "feature_set": "reduced",
+  "train_rows": 416250,
+  "fit_rows": 416250,
+  "lof_reference_rows": 416250,
+  "training_protocol": "all rows in the chronological 70% partition",
+  "lof_approximation": "FAISS IVF approximate neighbours over all training rows",
+  "n_features": 20,
+  "threshold": 0.9251933693885803,
+  "validation": {
+    "precision": 0.010875170975626163,
+    "recall": 1.0,
+    "f1": 0.021516347988110553,
+    "pr_auc_average_precision": 0.005715170423997441,
+    "roc_auc": 0.07145162692532137,
+    "specificity": 2.26690544737379e-05,
+    "fpr": 0.9999773309455262,
+    "tn": 2,
+    "fp": 88224,
+    "fn": 0,
+    "tp": 970
+  },
+  "test": {
+    "precision": 0.010785478843868422,
+    "recall": 1.0,
+    "f1": 0.021340787080172147,
+    "pr_auc_average_precision": 0.005658173100673939,
+    "roc_auc": 0.06274587200806955,
+    "specificity": 3.4000113333711115e-05,
+    "fpr": 0.9999659998866662,
+    "tn": 3,
+    "fp": 88232,
+    "fn": 0,
+    "tp": 962
+  },
+  "preprocessing_seconds": 3.1991152999689803,
+  "fit_seconds": 53.143091800040565,
+  "validation_seconds": 6.800026300013997,
+  "test_seconds": 5.193494600011036
+}

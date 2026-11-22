@@ -1,0 +1,187 @@
+{
+  "source": "C:\\Users\\DELL\\Desktop\\Semesters\\Semester-7\\Foundation of Data Sciences\\fraud_detection\\data\\raw\\PaySim_Dataset.zip",
+  "raw_rows": 6362620,
+  "cleaned_rows": 6362620,
+  "invalid_rows_removed": 0,
+  "missing_by_raw_column": {
+    "step": 0,
+    "type": 0,
+    "amount": 0,
+    "nameOrig": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "nameDest": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0,
+    "isFraud": 0,
+    "isFlaggedFraud": 0
+  },
+  "duplicate_row_hashes": 0,
+  "dtypes": {
+    "step": "int64",
+    "type": "str",
+    "amount": "float64",
+    "nameOrig": "str",
+    "oldbalanceOrg": "float64",
+    "newbalanceOrig": "float64",
+    "nameDest": "str",
+    "oldbalanceDest": "float64",
+    "newbalanceDest": "float64",
+    "isFraud": "int64",
+    "isFlaggedFraud": "int64"
+  },
+  "fraud_counts": {
+    "0": 6354407,
+    "1": 8213
+  },
+  "step_range": [
+    1,
+    743
+  ],
+  "numeric_statistics": {
+    "step": {
+      "mean": 243.39724563151657,
+      "std": 142.33197104912983,
+      "variance": 20258.389982730332,
+      "min": 1.0,
+      "q1": 156.0,
+      "median": 239.0,
+      "q3": 335.0,
+      "max": 743.0,
+      "skewness": 0.37517688846984876,
+      "iqr_outliers": 102688
+    },
+    "amount": {
+      "mean": 179861.90354913071,
+      "std": 603858.2314629357,
+      "variance": 364644763705.5444,
+      "min": 0.0,
+      "q1": 13389.57,
+      "median": 74871.94,
+      "q3": 208721.4775,
+      "max": 92445516.64,
+      "skewness": 30.99394948249041,
+      "iqr_outliers": 338078
+    },
+    "oldbalanceOrg": {
+      "mean": 833883.1040744866,
+      "std": 2888242.6730375565,
+      "variance": 8341945738355.13,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 14208.0,
+      "q3": 107315.175,
+      "max": 59585040.37,
+      "skewness": 5.249136420603118,
+      "iqr_outliers": 1112507
+    },
+    "newbalanceOrig": {
+      "mean": 855113.6685785886,
+      "std": 2924048.502954266,
+      "variance": 8550059647629.083,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 144258.41,
+      "max": 49585040.37,
+      "skewness": 5.176884001159237,
+      "iqr_outliers": 1053391
+    },
+    "oldbalanceDest": {
+      "mean": 1100701.666519649,
+      "std": 3399180.1129944758,
+      "variance": 11554425440577.137,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 132705.66499999998,
+      "q3": 943036.7075,
+      "max": 356015889.35,
+      "skewness": 19.92175791579108,
+      "iqr_outliers": 786135
+    },
+    "newbalanceDest": {
+      "mean": 1224996.3982019294,
+      "std": 3674128.9421196375,
+      "variance": 13499223483321.168,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 214661.44,
+      "q3": 1111909.25,
+      "max": 356179278.92,
+      "skewness": 19.352302057660125,
+      "iqr_outliers": 738527
+    },
+    "amount_log1p": {
+      "mean": 10.840873933417264,
+      "std": 1.8145094682769076,
+      "variance": 3.292444610466546,
+      "min": 0.0,
+      "q1": 9.502306006860584,
+      "median": 11.223547822516657,
+      "q3": 12.248760789709474,
+      "max": 18.342130030468418,
+      "skewness": -0.5550183204227778,
+      "iqr_outliers": 32429
+    },
+    "oldbalanceOrg_log1p": {
+      "mean": 7.41457355107302,
+      "std": 5.66975579023826,
+      "variance": 32.14613072094028,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 9.561630845638076,
+      "q3": 11.583534662826988,
+      "max": 17.90291511680906,
+      "skewness": -0.2597228246486485,
+      "iqr_outliers": 0
+    },
+    "newbalanceOrig_log1p": {
+      "mean": 5.366091508385955,
+      "std": 6.330024294035238,
+      "variance": 40.06920756307631,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 11.879368416211507,
+      "max": 17.719199760926912,
+      "skewness": 0.44014809990739706,
+      "iqr_outliers": 0
+    },
+    "oldbalanceDest_log1p": {
+      "mean": 7.722420134326312,
+      "std": 6.7476374099259155,
+      "variance": 45.53061061583172,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 11.795896445132264,
+      "q3": 13.756861547560526,
+      "max": 19.690485923634764,
+      "skewness": -0.21326075958033824,
+      "iqr_outliers": 0
+    },
+    "newbalanceDest_log1p": {
+      "mean": 8.330604001889682,
+      "std": 6.675095305974263,
+      "variance": 44.55689734383963,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 12.27682202678307,
+      "q3": 13.921590040103737,
+      "max": 19.690944757335657,
+      "skewness": -0.3869372982497403,
+      "iqr_outliers": 0
+    }
+  },
+  "seconds": 152.12890159990638,
+  "categorical_counts": {
+    "type": {
+      "PAYMENT": 2151495,
+      "CASH_OUT": 2237500,
+      "CASH_IN": 1399284,
+      "TRANSFER": 532909,
+      "DEBIT": 41432
+    }
+  },
+  "plots_sample_rows": 51200,
+  "plot_sampling": "400 rows per 50,000-row batch across complete dataset"
+}

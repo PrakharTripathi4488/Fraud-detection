@@ -1,0 +1,42 @@
+{
+  "dataset": "PaySim",
+  "model": "IsolationForest",
+  "feature_set": "full",
+  "train_rows": 4453834,
+  "fit_rows": 4453834,
+  "lof_reference_rows": null,
+  "training_protocol": "all rows in the chronological 70% partition",
+  "lof_approximation": null,
+  "n_features": 22,
+  "threshold": 0.6120487451553345,
+  "validation": {
+    "precision": 0.024307036247334754,
+    "recall": 0.20284697508896798,
+    "f1": 0.04341203351104341,
+    "pr_auc_average_precision": 0.013675687067498266,
+    "roc_auc": 0.9281485479621081,
+    "specificity": 0.9952025044268848,
+    "fpr": 0.004797495573115153,
+    "tn": 949255,
+    "fp": 4576,
+    "fn": 448,
+    "tp": 114
+  },
+  "test": {
+    "precision": 0.15451678723798923,
+    "recall": 0.20783433133732535,
+    "f1": 0.1772528992446005,
+    "pr_auc_average_precision": 0.08812718839287365,
+    "roc_auc": 0.9257937255011172,
+    "specificity": 0.9952040488854517,
+    "fpr": 0.004795951114548315,
+    "tn": 945827,
+    "fp": 4558,
+    "fn": 3175,
+    "tp": 833
+  },
+  "preprocessing_seconds": 566.5918044999707,
+  "fit_seconds": 9.11673249991145,
+  "validation_seconds": 15.480052500031888,
+  "test_seconds": 10.349017700063996
+}

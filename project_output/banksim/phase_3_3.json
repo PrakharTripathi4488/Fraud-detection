@@ -1,0 +1,105 @@
+{
+  "source": "C:\\Users\\DELL\\Desktop\\Semesters\\Semester-7\\Foundation of Data Sciences\\fraud_detection\\data\\raw\\BankSim_Dataset.csv",
+  "raw_rows": 594643,
+  "cleaned_rows": 594643,
+  "invalid_rows_removed": 0,
+  "missing_by_raw_column": {
+    "step": 0,
+    "customer": 0,
+    "age": 0,
+    "gender": 0,
+    "zipcodeOri": 0,
+    "merchant": 0,
+    "zipMerchant": 0,
+    "category": 0,
+    "amount": 0,
+    "fraud": 0
+  },
+  "duplicate_row_hashes": 0,
+  "dtypes": {
+    "step": "int64",
+    "customer": "str",
+    "age": "str",
+    "gender": "str",
+    "zipcodeOri": "str",
+    "merchant": "str",
+    "zipMerchant": "str",
+    "category": "str",
+    "amount": "float64",
+    "fraud": "int64"
+  },
+  "fraud_counts": {
+    "0": 587443,
+    "1": 7200
+  },
+  "step_range": [
+    0,
+    179
+  ],
+  "numeric_statistics": {
+    "step": {
+      "mean": 94.98682739055198,
+      "std": 51.053631732232894,
+      "variance": 2606.4733130504574,
+      "min": 0.0,
+      "q1": 52.0,
+      "median": 97.0,
+      "q3": 139.0,
+      "max": 179.0,
+      "skewness": -0.1194282196127338,
+      "iqr_outliers": 0
+    },
+    "amount": {
+      "mean": 37.8901353080756,
+      "std": 111.40283093084041,
+      "variance": 12410.590739405412,
+      "min": 0.0,
+      "q1": 13.74,
+      "median": 26.9,
+      "q3": 42.54,
+      "max": 8329.96,
+      "skewness": 32.36583815088303,
+      "iqr_outliers": 25798
+    },
+    "amount_log1p": {
+      "mean": 3.1762065596221056,
+      "std": 0.9554843806769181,
+      "variance": 0.9129504017175537,
+      "min": 0.0,
+      "q1": 2.6905648867611904,
+      "median": 3.32862668882732,
+      "q3": 3.7736800558064014,
+      "max": 9.027733974619006,
+      "skewness": -0.4214331820892833,
+      "iqr_outliers": 26875
+    }
+  },
+  "seconds": 6.085390399908647,
+  "categorical_counts": {
+    "gender": {
+      "F": 324565,
+      "M": 268385,
+      "E": 1178,
+      "U": 515
+    },
+    "category": {
+      "es_transportation": 505119,
+      "es_wellnessandbeauty": 15086,
+      "es_food": 26254,
+      "es_health": 16133,
+      "es_barsandrestaurants": 6373,
+      "es_hyper": 6098,
+      "es_fashion": 6454,
+      "es_sportsandtoys": 4002,
+      "es_home": 1986,
+      "es_tech": 2370,
+      "es_otherservices": 912,
+      "es_hotelservices": 1744,
+      "es_travel": 728,
+      "es_contents": 885,
+      "es_leisure": 499
+    }
+  },
+  "plots_sample_rows": 4800,
+  "plot_sampling": "400 rows per 50,000-row batch across complete dataset"
+}

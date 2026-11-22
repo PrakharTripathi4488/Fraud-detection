@@ -1,0 +1,42 @@
+{
+  "dataset": "BankSim",
+  "model": "IsolationForest",
+  "feature_set": "full",
+  "train_rows": 416250,
+  "fit_rows": 416250,
+  "lof_reference_rows": null,
+  "training_protocol": "all rows in the chronological 70% partition",
+  "lof_approximation": null,
+  "n_features": 36,
+  "threshold": 0.5123724341392517,
+  "validation": {
+    "precision": 0.06515085264538698,
+    "recall": 0.9216494845360824,
+    "f1": 0.12169888374625647,
+    "pr_auc_average_precision": 0.06111443918793549,
+    "roc_auc": 0.9123409573024853,
+    "specificity": 0.8546006846054451,
+    "fpr": 0.1453993153945549,
+    "tn": 75398,
+    "fp": 12828,
+    "fn": 76,
+    "tp": 894
+  },
+  "test": {
+    "precision": 0.06540512127356012,
+    "recall": 0.9054054054054054,
+    "f1": 0.12199733874921213,
+    "pr_auc_average_precision": 0.06604531605018815,
+    "roc_auc": 0.9152776022073918,
+    "specificity": 0.8589448631495439,
+    "fpr": 0.14105513685045618,
+    "tn": 75789,
+    "fp": 12446,
+    "fn": 91,
+    "tp": 871
+  },
+  "preprocessing_seconds": 70.13354750000872,
+  "fit_seconds": 1.1736960000125691,
+  "validation_seconds": 0.876896100002341,
+  "test_seconds": 1.186144799925387
+}

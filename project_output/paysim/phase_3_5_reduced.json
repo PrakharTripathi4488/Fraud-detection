@@ -1,0 +1,25 @@
+{
+  "features": [
+    "amount_log1p",
+    "oldbalanceOrg_log1p",
+    "newbalanceOrig_log1p",
+    "oldbalanceDest_log1p",
+    "newbalanceDest_log1p",
+    "sin_hour",
+    "cos_hour",
+    "sin_weekday",
+    "cos_weekday",
+    "is_type_CASH_IN",
+    "is_type_CASH_OUT",
+    "is_type_DEBIT",
+    "is_type_PAYMENT",
+    "is_type_TRANSFER"
+  ],
+  "removed_from_training_sample": {
+    "constant": [],
+    "correlated": []
+  },
+  "training_rows_for_scaler": 4453834,
+  "sampling_seed": 42,
+  "model_reference_rows": 200000
+}

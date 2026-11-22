@@ -1,0 +1,42 @@
+{
+  "dataset": "PaySim",
+  "model": "LOF",
+  "feature_set": "reduced",
+  "train_rows": 4453834,
+  "fit_rows": 4453834,
+  "lof_reference_rows": 4453834,
+  "training_protocol": "all rows in the chronological 70% partition",
+  "lof_approximation": "FAISS IVF approximate neighbours over all training rows",
+  "n_features": 14,
+  "threshold": 3.397367000579834,
+  "validation": {
+    "precision": 0.015288394718554551,
+    "recall": 0.07829181494661921,
+    "f1": 0.02558139534883721,
+    "pr_auc_average_precision": 0.004253315818373187,
+    "roc_auc": 0.7217233755283259,
+    "specificity": 0.9970288237643775,
+    "fpr": 0.002971176235622453,
+    "tn": 950997,
+    "fp": 2834,
+    "fn": 518,
+    "tp": 44
+  },
+  "test": {
+    "precision": 0.038059203204985535,
+    "recall": 0.08532934131736528,
+    "f1": 0.052639679852239496,
+    "pr_auc_average_precision": 0.021318333487323513,
+    "roc_auc": 0.7117234295383832,
+    "specificity": 0.9909047386059334,
+    "fpr": 0.009095261394066615,
+    "tn": 941741,
+    "fp": 8644,
+    "fn": 3666,
+    "tp": 342
+  },
+  "preprocessing_seconds": 44.12719609995838,
+  "fit_seconds": 430.0637610000558,
+  "validation_seconds": 98.35608689999208,
+  "test_seconds": 69.16574660001788
+}

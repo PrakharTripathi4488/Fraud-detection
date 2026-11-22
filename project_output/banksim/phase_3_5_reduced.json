@@ -1,0 +1,31 @@
+{
+  "features": [
+    "amount_log1p",
+    "sin_day",
+    "cos_day",
+    "sin_weekday",
+    "cos_weekday",
+    "is_category_es_barsandrestaurants",
+    "is_category_es_contents",
+    "is_category_es_fashion",
+    "is_category_es_food",
+    "is_category_es_health",
+    "is_category_es_home",
+    "is_category_es_hotelservices",
+    "is_category_es_hyper",
+    "is_category_es_leisure",
+    "is_category_es_otherservices",
+    "is_category_es_sportsandtoys",
+    "is_category_es_tech",
+    "is_category_es_transportation",
+    "is_category_es_travel",
+    "is_category_es_wellnessandbeauty"
+  ],
+  "removed_from_training_sample": {
+    "constant": [],
+    "correlated": []
+  },
+  "training_rows_for_scaler": 416250,
+  "sampling_seed": 42,
+  "model_reference_rows": 200000
+}

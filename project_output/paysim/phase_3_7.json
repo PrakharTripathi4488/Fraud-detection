@@ -1,0 +1,14 @@
+{
+  "method": "chronological row order",
+  "counts": {
+    "train": 4453834,
+    "validation": 954393,
+    "test": 954393
+  },
+  "fraud_counts": {
+    "train": 3643,
+    "validation": 562,
+    "test": 4008
+  },
+  "warning": "Equal step values can cross exact row percentage boundaries."
+}

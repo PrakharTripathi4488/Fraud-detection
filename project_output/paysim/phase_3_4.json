@@ -1,0 +1,30 @@
+{
+  "engineered_columns": [
+    "step",
+    "hour",
+    "day",
+    "weekday",
+    "sin_hour",
+    "cos_hour",
+    "sin_weekday",
+    "cos_weekday",
+    "amount_log1p",
+    "oldbalanceOrg_log1p",
+    "newbalanceOrig_log1p",
+    "oldbalanceDest_log1p",
+    "newbalanceDest_log1p",
+    "origin_delta_log1p",
+    "destination_delta_log1p",
+    "origin_residual_log1p",
+    "destination_residual_log1p",
+    "is_zero_origin_balance",
+    "is_type_CASH_IN",
+    "is_type_CASH_OUT",
+    "is_type_DEBIT",
+    "is_type_PAYMENT",
+    "is_type_TRANSFER"
+  ],
+  "rows": 6362620,
+  "relative_calendar": true,
+  "categorical_encoding": "fixed schema; identifiers and rule flag excluded"
+}
