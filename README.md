@@ -1,4 +1,4 @@
-# Fraud detection: full raw-data rebuild
+# Fraud detection
 
 This project implements sections 3.3–3.9 and section 4 of
 `Midsem_Project_Report.pdf` for **only** these two inputs:
